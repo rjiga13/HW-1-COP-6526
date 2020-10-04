@@ -1,1 +1,3 @@
 # HW-1-COP-6526
+The code attached was used in PySpark. This is a map/reduce program that assigns unique word counts to the file "input.txt" file which contains text from The Project Gutenberg EBook of The Adventures of Sherlock Holmes. For each word in the text, the script computes the occurences of the other words that appear in every line that that specific word appeared in. The script iterates through the lines of the text and computes the occurrences of the specific pairs. For this to work, every string was converted to lowercase and all punctuation was removed using regex formula.
+Any other text file can be applied to this script by replacing "input.txt" with a txt file of the user's preference.
